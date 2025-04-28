@@ -1,0 +1,35 @@
+{
+  "favicon": {
+    "ico": {
+      "sizes": [16, 32, 48],
+      "format": "ICO",
+      "purpose": "Basic favicon for all browsers"
+    },
+    "modernIcons": [
+      {
+        "size": "180x180",
+        "format": "PNG",
+        "purpose": "Apple Touch Icon",
+        "tag": "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\">"
+      },
+      {
+        "size": "192x192",
+        "format": "PNG",
+        "purpose": "Android Chrome",
+        "tag": "<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/android-chrome-192x192.png\">"
+      },
+      {
+        "size": "512x512",
+        "format": "PNG",
+        "purpose": "PWA and large displays",
+        "tag": "<link rel=\"icon\" type=\"image/png\" sizes=\"512x512\" href=\"/android-chrome-512x512.png\">"
+      }
+    ],
+    "recommendations": {
+      "format": "SVG or PNG source file",
+      "minimumSize": "512x512",
+      "transparency": "Supported",
+      "background": "Consider both light and dark mode compatibility"
+    }
+  }
+}
